@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RPS Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/webjars/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/webjars/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<body>
+    <div id="main-content" class="container">
+        <form>
+            <textarea class="form-control mt-5" id="textarea" style="resize: none; height:500px; scroll-behavior: smooth;" readonly="readonly" disabled></textarea>
+            <input class="form-control mt-3" type="text" id="input" placeholder="Введите команду" autofocus/>
+        </form>
+    </div>
+</body>
+</html>
